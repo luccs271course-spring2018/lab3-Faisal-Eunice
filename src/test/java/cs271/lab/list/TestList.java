@@ -2,6 +2,7 @@ package cs271.lab.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import org.junit.After;
 import org.junit.Before;
@@ -15,7 +16,8 @@ public class TestList {
 
   @Before
   public void setUp() throws Exception {
-    list = new ArrayList<Integer>();
+    //list = new ArrayList<Integer>();
+    list = new LinkedList<Integer>();
     // TODO also try with a LinkedList - does it make any difference?
   }
 
